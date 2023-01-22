@@ -1,0 +1,42 @@
+body {
+ background-color: aquamarine;
+}
+
+body .body-container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 160px; 
+}
+h1{
+    padding: 10px; 
+}
+
+.section-container{
+    width: 400px;
+    background-color: #fff;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 30px 30px 30px;
+    text-align: center;
+}
+#weight, #height{
+    height: 30px;
+}
+
+#btn{
+margin: 20px;
+margin-left: -40%;
+background-color: aquamarine;
+border: rgb(22, 10, 10) solid 2px;
+border-radius: 3px;;
+padding: 10px;
+cursor: pointer;
+font-size: 18px;
+}
+
+#result{
+    margin: auto;  
+    margin-left: -5px;
+}
