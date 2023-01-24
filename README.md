@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](/)
+[Live Demo Link](/https://bmicaalculator.netlify.app)
 
 ### Development (Running locally)
 
