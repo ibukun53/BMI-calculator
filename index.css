@@ -25,7 +25,7 @@ h1{
     height: 30px;
 }
 
-#btn{
+#btn {
 margin: 20px;
 margin-left: -40%;
 background-color: aquamarine;
@@ -36,7 +36,23 @@ cursor: pointer;
 font-size: 18px;
 }
 
-#result{
+#result {
     margin: auto;  
     margin-left: -5px;
+}
+
+@media only screen and (max-width: 768px) {
+    h1{
+        padding: 10px; 
+        text-align: center;
+    }
+    body .body-container{
+        display: block;
+        margin: auto;
+        margin-left: 8%;
+        padding-top: 2%; 
+    }
+    .section-container{
+        width: 350px;
+    }
 }
